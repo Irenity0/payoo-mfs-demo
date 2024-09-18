@@ -23,16 +23,16 @@
                             <label class="label">
                               <span class="label-text font-bold">Mobile Number</span>
                             </label>
-                            <input type="text" placeholder="Enter Your Number" class="input input-bordered rounded-full" required />
+                            <input id="phone-number" type="text" placeholder="Enter Your Number" class="input input-bordered rounded-full" required />
                           </div>
                           <div class="form-control">
                             <label class="label">
                               <span class="label-text font-bold">4 Digit Pin</span>
                             </label>
-                            <input type="password" placeholder="Enter 4 Digit Pin" class="input input-bordered rounded-full" required />
+                            <input type="password" placeholder="Enter 4 Digit Pin" class="input input-bordered rounded-full" autocomplete="off" required />
                           </div>
                           <div class="form-control mt-6">
-                            <button class="btn btn-primary rounded-full">Login</button>
+                            <button id="button-login" class="btn btn-primary rounded-full">Login</button>
                           </div>
                         </form>
                       </div>
@@ -44,5 +44,6 @@
             </div>
           </div>
     </main>
+    <script src="js/login.js"></script>
 </body>
 </html>
