@@ -12,12 +12,12 @@
         <div class="mockup-phone mt-20">
             <div class="camera"></div>
             <div class="display">
-              <div class="artboard artboard-demo phone-1">
+              <div class="artboard artboard-demo phone-2">
                  
                 <!-- balance -->
                 <div class="stats shadow">
                     <div class="stat">
-                      <div class="stat-value">89,400</div>
+                      <div id="acc-balc" class="stat-value">89400</div>
                       <div class="stat-desc">Total Balance</div>
                     </div>
                 </div>
@@ -31,22 +31,30 @@
 
                 <div class="divider"></div>
 
+                <!-- add money start -->
                 <div class="card bg-base-100 max-w-sm shrink-0 shadow-2xl">
                     <form class="card-body">
                       <div class="form-control">
                         <label class="label">
                           <span class="label-text">Amount</span>
                         </label>
-                        <input type="text" placeholder="Amount" class="input input-bordered" required />
+                        <input id="input-add-money" type="text" placeholder="Amount" class="input input-bordered" required />
                       </div>
                       <div class="form-control">
                         <label class="label">
                           <span class="label-text">Pin</span>
                         </label>
-                        <input type="password" placeholder="Pin" class="input input-bordered" autocomplete="off" required />
+                        <input id="input-pin-number" type="password" placeholder="Pin" class="input input-bordered" autocomplete="off" required />
+                      </div>
+                      <div class="form-control mt-6">
+                        <button id="btn-add-money" class="btn btn-primary">Add Money</button>
                       </div>
                     </form>
-                  </div>
+                </div>
+                  <!-- add money end -->
+
+                  <!-- cash out start -->
+                  <!-- cash out end -->
               </div>
             </div>
           </div>
